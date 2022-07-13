@@ -9,6 +9,7 @@ specifiers:
   '@types/koa__router': ^8.0.11
   '@typescript-eslint/eslint-plugin': ^5.30.4
   '@typescript-eslint/parser': ^5.30.4
+  coderhub: 'link:'
   dotenv: ^16.0.1
   esbuild: ^0.14.48
   esbuild-register: ^3.3.3
@@ -28,6 +29,7 @@ specifiers:
 dependencies:
   '@koa/multer': 3.0.0_multer@1.4.5-lts.1
   '@koa/router': 11.0.1
+  coderhub: 'link:'
   dotenv: 16.0.1
   jimp: 0.16.1
   jsonwebtoken: 8.5.1
