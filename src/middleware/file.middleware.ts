@@ -20,7 +20,7 @@ const verifyAvatarExists: RMiddleware = async (ctx, next) => {
   const oldAvatar = await fileService.getAvatarById(id)
   if (oldAvatar) {
     ctx.user.hasOldAvatar = true
-    await fs.unlink(`${AVATAR_PATH}/${oldAvatar.filename}`)
+    fs.unlink(`${AVATAR_PATH}/${oldAvatar.filename}`)
   }
 
   await next()
