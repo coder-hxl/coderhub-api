@@ -5,7 +5,8 @@ module.exports = {
       interpreter: 'node',
       interpreter_args: '-r esbuild-register',
       script: 'src/main.ts',
-      watch: true
+      watch: true,
+      ignore_watch: ['node_modules', 'uploads']
     }
   ]
 }
