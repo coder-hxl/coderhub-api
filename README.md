@@ -1,6 +1,6 @@
-# coderhub
+# coderhub API
 
-**coderhub** —— 基于 **NodeJS** 和 **MySQL** 开发的社交平台接口, 采用 **REST** 设计风格, 主要使用 **TypeScript** 来开发。
+**coderhub API** —— 基于 **NodeJS** 和 **MySQL** 开发的社交平台接口, 采用 **REST** 设计风格, 主要使用 **TypeScript** 来开发。
 
 ## 使用
 
