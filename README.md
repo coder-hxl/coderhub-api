@@ -45,4 +45,20 @@ pnpm start
 
 **获取数据**
 
-默认在: http://localhost:8888 , 详情请看 src/router 里面的文件。
+默认在 http://localhost:8888 启动服务。
+
+例如:
+
+获取全部动态
+
+```HTTP
+GET /moments
+```
+
+获取某一条动态
+
+```HTTP
+GET /moments/:momentId
+```
+
+详情请看 src/router 里面的文件。
